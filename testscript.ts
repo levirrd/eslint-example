@@ -37,3 +37,7 @@ function test3() {
 async function test4() {
     asyncWait();
 }
+
+function validSyncLoop2(a: string) {
+    a = "asd";
+}
